@@ -1,4 +1,9 @@
-#this is a tic-tac-toe game
+###################################
+# Ayaz Noor
+# This is a tic-tac-toe-game
+# THe game starts with a blank board.  This is a two-player game, where one player determines 'X,'
+# and the other player determines'O.'  The game ends when a winning combination occurs, or else the game
+# is a draw
 
 # define variables
 player_turn = True # 0 stands for "O", and 1 stands for "X" for turns. X goes first 
