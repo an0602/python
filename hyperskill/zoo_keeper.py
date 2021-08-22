@@ -1,3 +1,10 @@
+################################################
+# Ayaz Noor
+# Zoo Keeper App
+# This application lets you view zoo exhibits.  Select a value from 0 to 5 to see habitat
+# Type "exit" to leave the zoo
+################################################
+
 camel = r"""
 Switching on the camera in the camel habitat...
  ___.-''''-.
@@ -123,9 +130,9 @@ It looks like we will soon have more rabbits!"""
 animals = [camel, lion, deer, goose, bat, rabbit]
 
 # write your code here
-my_input = input("Please enter the number of the habitat you would like to view:")
+my_input = input("Please enter the number of the habitat you would like to view: ")
 
 while my_input != "exit":
    print(animals[int(my_input)])
-   my_input = input("Please enter the number of the habitat you would like to view:")
+   my_input = input("Please enter the number of the habitat you would like to view: ")
 print("See you later!")   
